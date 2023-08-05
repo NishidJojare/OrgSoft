@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace OrgSoft.Data
+namespace OrgSoft.OrgSoft.Data
 {
     using System;
     using System.Collections.Generic;
