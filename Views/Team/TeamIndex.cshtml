@@ -1,0 +1,75 @@
+﻿
+@{
+    ViewBag.Title = "TeamIndex";
+    Layout = "~/Views/Shared/_Layout - Admin.cshtml";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Team.js"></script>
+
+<input type="hidden" id="Id" />
+<main id="main" class="main">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Team Registration</h5>
+
+            <!-- Multi Columns Form -->
+            <form class="row g-3">
+                <div class="col-sm-12">
+                    <label class="form-label">Your Name</label>
+                    <input type="text" class="form-control" id="txtName">
+                </div>
+                <div class="col-sm-6">
+                    <label class="form-label">Upload Photo</label>
+                    <input class="form-control" type="file" id="file1">
+                </div>
+                <div class="col-sm-6">
+                    <label class="form-label">Designation</label>
+                    <input type="text" class="form-control" id="txtDesignation">
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label">Facebook Link</label>
+                    <input type="text" class="form-control" id="txtFacebook">
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label">Instagram Link</label>
+                    <input type="text" class="form-control" id="txtInstagram">
+                </div>
+                <div class="col-sm-4">
+                    <label class="form-label">Twitter Link</label>
+                    <input type="text" class="form-control" id="txtTwitter">
+                </div>
+                <div class="col-sm-6">
+                    <label class="form-label">Linked-In Link</label>
+                    <input type="text" class="form-control" id="txtLinkedIn">
+                </div>
+
+
+                <div class="text-center">
+                    <button type="submit" class="btn btn-primary" onclick="SaveTeam()">Submit</button>
+                    <button type="reset" class="btn btn-secondary">Reset</button>
+                </div>
+            </form><!-- End Multi Columns Form -->
+
+        </div>
+    </div>
+</main>
+
+
+<main class="main" id="main">
+    <table class="table-bordered table-striped table" border="1" id="tblTeam">
+        <thead class="table-dark">
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Photo</th>
+                <th>Designation</th>
+                <th>Instagram</th>
+                <th>Facebook</th>
+                <th>Twitter</th>
+                <th>Linked In</th>
+                <th>Operations</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</main>

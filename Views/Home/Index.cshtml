@@ -1,0 +1,418 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<style>
+    .pic img{
+        display:flex;
+        justify-content:center;
+         max-width: 100%;
+        height: 400px;
+    }
+    .img-fluid {
+        max-width: 100%;
+        height: 400px;
+    }
+</style>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/Pages/Team.js"></script>
+
+<main id="main" class="main">
+
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero">
+
+        <div class="hero-container" data-aos="fade-up" data-aos-delay="150">
+
+            <h1>One step Solution for your Business</h1>
+            <div class="d-flex">
+                <a href="#about" class="btn-get-started scrollto">Get Started</a>
+                <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero-->
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+
+            <div class="row justify-content-between">
+                <div class="col-lg-11">
+                    <div class="row justify-content-end">
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-emoji-smile"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="125" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Happy Clients</p>
+                            </div>
+                        </div>
+                        @*<div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                                <div class="count-box">
+                                    <i class="bi bi-journal-richtext"></i>
+                                    <span data-purecounter-start="0" data-purecounter-end="85" data-purecounter-duration="1" class="purecounter"></span>
+                                    <p>Projects</p>
+                                </div>
+                            </div>*@
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-clock"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="35" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Years of experience</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
+                            <div class="count-box">
+                                <i class="bi bi-award"></i>
+                                <span data-purecounter-start="0" data-purecounter-end="48" data-purecounter-duration="1" class="purecounter"></span>
+                                <p>Awards</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-6 video-box align-self-baseline" data-aos="zoom-in" data-aos-delay="100">
+                    <img src="~/Content/assets/img/about.jpg" class="img-fluid" alt="">
+                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
+                </div>
+
+                <div class="col-lg-6 pt-3 pt-lg-0 content">
+                    <h3><i>About:</i></h3>
+                    <i>
+                        At OrgSoft, we are passionate about helping individuals, teams, and businesses achieve greater levels of productivity, efficiency, and organization. Our powerful software is designed to streamline your workflows, simplify complex tasks, and provide you with the tools you need to stay on top of your responsibilities.
+                        Our Mission: Our mission is to empower our users with cutting-edge OrgSoft that enhances their daily lives and work processes. We strive to be a catalyst for positive change, fostering a culture of productivity and collaboration among our users.
+                    </i>
+                    <p class="fst-italic">
+                        <h3><i>Key Features:</i></h3>
+                    </p>
+                    <ul>
+                        <li><i class="bx bx-check-double"></i><b>Task Management:</b> Stay organized with our intuitive task management system. Create, assign, and track tasks effortlessly, ensuring that nothing falls through the cracks.</li>
+                        <li><i class="bx bx-check-double"></i><b>Calendar Integration:</b> Seamlessly sync your tasks, events, and deadlines with your favorite calendar application, enabling you to manage your time effectively.</li>
+                        <li><i class="bx bx-check-double"></i><b>Collaboration Tools:</b> Foster teamwork and communication with built-in collaboration features. Share tasks, files, and updates with colleagues, making it easy to work together towards common goals.</li>
+                        <li><i class="bx bx-check-double"></i><b>File Storage and Sharing:</b> Store your important files securely in one centralized location. Share documents and resources with team members, enhancing collaboration and reducing version control issues.</li>
+                        <li><i class="bx bx-check-double"></i><b>Reminders and Notifications:</b> Never miss a deadline again with customizable reminders and real-time notifications. Stay informed about critical updates and changes.</li>
+                        <li><i class="bx bx-check-double"></i><b> Project Planning:</b> Plan and execute projects flawlessly with our project management tools. Visualize project timelines, allocate resources, and monitor progress in real-time.</li>
+                        <li><i class="bx bx-check-double"></i><b> Data Security:</b> We understand the importance of data security, which is why we employ robust encryption and industry-standard security measures to protect your sensitive information.                    </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End About Section -->
+    <!-- ======= About Boxes Section ======= -->
+    <section id="about-boxes" class="about-boxes">
+        <div class="container" data-aos="fade-up">
+            <!-- ======= Services Section ======= -->
+            <section id="services" class="services section-bg">
+                <div class="container" data-aos="fade-up">
+
+                    <div class="section-title">
+                        <h2>Services</h2>
+                        <p>Check our Services</p>
+                    </div>
+
+                    <div class="row" data-aos="fade-up" data-aos-delay="200">
+                        <div class="col-md-6">
+                            <div class="icon-box">
+                                <i class="bi bi-laptop"></i>
+                                <h4><a href="#">Enterprise Solution</a></h4>
+                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <i class="bi bi-bar-chart"></i>
+                                <h4><a href="#">Congnitive Business Solutions</a></h4>
+                                <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <i class="bi bi-braces"></i>
+
+                                <h4><a href="#">Software Development</a></h4>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <i class="bi bi-code-slash"></i>
+                                <h4><a href="#">Website Development</a></h4>
+                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <i class="bi bi-card-checklist"></i>
+                                <h4><a href="#">Management & Consulting</a></h4>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mt-4 mt-md-0">
+                            <div class="icon-box">
+                                <i class="bi bi-people"></i>
+                                <h4><a href="#">Network Solutions & Services</a></h4>
+                                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section><!-- End Services Section -->
+        </div>
+    </section><!-- End About Boxes Section -->
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+        <div class="container" data-aos="zoom-in">
+
+            <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/Content/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                            <h3>Saul Goodman</h3>
+                            <h4>Ceo &amp; Founder</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/Content/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                            <h3>Sara Wilsson</h3>
+                            <h4>Designer</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/Content/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                            <h3>Jena Karlis</h3>
+                            <h4>Store Owner</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/Content/assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                            <h3>Matt Brandon</h3>
+                            <h4>Freelancer</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                    <div class="swiper-slide">
+                        <div class="testimonial-item">
+                            <img src="~/Content/assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                            <h3>John Larson</h3>
+                            <h4>Entrepreneur</h4>
+                            <p>
+                                <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            </p>
+                        </div>
+                    </div><!-- End testimonial item -->
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section><!-- End Testimonials Section -->
+    <!-- ======= Team Section ======= -->
+    <section id="team" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+
+            <div class="section-title">
+                <h2>Team</h2>
+                <p>Check our Team</p>
+            </div>
+
+            <div class="row" id="TeamList">
+
+                @*<div class="col-lg-4 col-md-6">
+                    <div class="member" data-aos="fade-up" data-aos-delay="100">
+                        <div class="pic"><img src="~/Content/Image/wallpaperflare.com_wallpaper (2).jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Spider Man</h4>
+                            <span>Member</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+                    <div class="member">
+                        <div class="pic"><img src="~/Content/Image/wallpaperflare.com_wallpaper.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Avengers</h4>
+                            <span>Member</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="pic"><img src="~/Content/Image/wallpaperflare.com_wallpaper1.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Thor</h4>
+                            <span>Member</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="pic"><img src="~/Content/Image/images.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Thor</h4>
+                            <span>Member</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                    <div class="member">
+                        <div class="pic"><img src="~/Content/Image/Nishu New.png" class="img-fluid" alt=""></div>
+                        <div class="member-info">
+                            <h4>Thor</h4>
+                            <span>Member</span>
+                            <div class="social">
+                                <a href=""><i class="bi bi-twitter"></i></a>
+                                <a href=""><i class="bi bi-facebook"></i></a>
+                                <a href=""><i class="bi bi-instagram"></i></a>
+                                <a href=""><i class="bi bi-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>*@
+
+
+            </div>
+
+        </div>
+    </section><!-- End Team Section -->
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up" ">
+
+            <div class=" section-title">
+                <h2>Contact</h2>
+                <p>Contact Us</p>
+            </div>
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="info-box">
+                                @*<i class="bx bx-map"></i>
+                                    <h3 class="address">Our Address</h3>*@
+                                @* <p>Wasudev Nagar Metro station,Nagpur</p>*@
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d930.460872124722!2d79.02052836773342!3d21.118805091644152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c00022cb5325%3A0xaf8c92fd5fd0d251!2sWasudev%20Nagar%20Metro%20Station!5e0!3m2!1sen!2sin!4v1690800245754!5m2!1sen!2sin" width="600" height="320" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                        @*<div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3 class="address">Email Us</h3>
+                                    <p>info@example.com<br>contact@example.com</p>
+                                </div>
+
+
+                            </div>*@
+                        @*<div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-phone-call"></i>
+                                    <h3 class="address">Call Us</h3>
+                                    <p>+91 9146534755</p>
+                                </div>
+                            </div>*@
+                    </div>
+
+                </div>
+
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <form class="php-email-form">
+                        <div class="row">
+
+                            <div class="col-sm-6 form-group">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Your Name" required>
+                            </div>
+                            <div class="col-sm-6 form-group mt-3 mt-md-0">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email" required>
+                            </div>
+
+
+                        </div>
+                        <div class="form-group mt-3">
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea name="message" rows="5" placeholder="Message" class="form-control" required></textarea>
+                        </div>
+                        <br />
+                        <div class="text-center"><button type="submit" class="btn-group" style="background-color: #ff4a17">Send Message</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section><!-- End Contact Section -->
+
+</main>
